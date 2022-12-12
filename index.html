@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <div id="header">
+        <div class="header-items">
+            <img class="header-icons" src="icons/magnify.png" alt="">
+            <input type="text" id="search-input">
+        </div>
+        <div class="header-items right">
+            <img class="header-icons" src="icons/bell-ring-outline.png" alt="">
+            <img id="profile-icon" src="profile/guest.png" alt="">
+            <span>Guest</span>
+        </div>
+        <div class="header-items">
+            <img src="profile/guest.png" alt="" id="profile-pic">
+            <span>Hi there,<br> Guest (@guest)</span>
+        </div>
+        <div class="header-items right">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+        </div>
+    </div>
+    <div id="sidebar">
+        <div class="sidebar-items" id="logo"><img src="icons/halloween.png"><span>Dashboard</span></div>
+        <div class="sidebar-items">
+            <img src="icons/home.png"><span>Home</span>
+            <img src="icons/card-account-mail-outline.png"><span>Profile</span>
+            <img src="icons/message.png"><span>Messages</span>
+            <img src="icons/clock.png"><span>History</span>
+            <img src="icons/file-multiple-outline.png"><span>Tasks</span>
+            <img src="icons/account-group.png"><span>Communities</span>
+        </div>
+        <div class="sidebar-items">
+            <img src="icons/cog.png"><span>Settings</span>
+            <img src="icons/help-box.png"><span>Support</span>
+            <img src="icons/shield-check.png"><span>Privacy</span>
+        </div>
+    </div>
+    <div id="content">
+        <div id="project-box">
+            <div class="label">Your Projects</div>
+            <div id="projects">
+                <div class="project">
+                    <div class="project-title">Super Cool Project</div>
+                    <div class="project-desc">Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</div>
+                    <div class="project-buttons">
+                        <img src="icons/star-plus-outline.png">
+                        <img src="icons/eye-plus-outline.png">
+                        <img src="icons/source-fork.png">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-title">Less Cool Project</div>
+                    <div class="project-desc">Pupperino doing me a frighten borkf pupper borkf wow such tempt tungg most angery pupper I have ever seen, heckin angery woofer super chub heck shoob ruff length boy. Hek borkdrive smol long</div>
+                    <div class="project-buttons">
+                        <img src="icons/star-plus-outline.png">
+                        <img src="icons/eye-plus-outline.png">
+                        <img src="icons/source-fork.png">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-title">Impossible App</div>
+                    <div class="project-desc">puggo shoober big ol pupper noodle horse. Very jealous pupper doing me a frighten shooberino much ruin diet mlem super chub</div>
+                    <div class="project-buttons">
+                        <img src="icons/star-plus-outline.png">
+                        <img src="icons/eye-plus-outline.png">
+                        <img src="icons/source-fork.png">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-title">Easy Peasy App</div>
+                    <div class="project-desc">long woofer very good spot adorable doggo. Woofer heckin good boys pats doggorino long water shoob blep boofers, dat tungg tho smol borking doggo</div>
+                    <div class="project-buttons">
+                        <img src="icons/star-plus-outline.png">
+                        <img src="icons/eye-plus-outline.png">
+                        <img src="icons/source-fork.png">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-title">Ad Blocker</div>
+                    <div class="project-desc">mlem maximum borkdrive corgo. Fat boi much ruin diet puggo noodle horse, porgo. Doggo many pats bork smol, borkdrive.</div>
+                    <div class="project-buttons">
+                        <img src="icons/star-plus-outline.png">
+                        <img src="icons/eye-plus-outline.png">
+                        <img src="icons/source-fork.png">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-title">Money Maker</div>
+                    <div class="project-desc">Pupperino doing me a frighten borkf pupper borkf wow such tempt tungg most angery pupper I have ever seen, heckin angery woofer super chub heck shoob ruff length boy. Hek borkdrive smol long</div>
+                    <div class="project-buttons">
+                        <img src="icons/star-plus-outline.png">
+                        <img src="icons/eye-plus-outline.png">
+                        <img src="icons/source-fork.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="side-box">
+            <div class="label">Announcements</div>
+            <div id="announcements">
+                <div class="announcement">
+                    <div class="announcement-title">Site Maintenance</div>
+                    <div class="announcement-desc">Doggo ipsum clouds you are doing me a frighten very jealous pupper yapper, smol very hand that feed shibe woofer smol borking</div>
+                </div>
+                <div class="announcement">
+                    <div class="announcement-title">Community Share Day</div>
+                    <div class="announcement-desc">smol very hand that feed shibe woofer smol borking</div>
+                </div>
+                <div class="announcement">
+                    <div class="announcement-title">Updated Privacy Policy</div>
+                    <div class="announcement-desc">a frighten very jealous pupper yapper</div>
+                </div>
+                
+            </div>
+            <div class="label">Trending</div>
+            <div id="trendings">
+                <div class="trending">
+                    <img src="profile/guest.png" class="trending-pic">
+                    <span class="trending-desc">@guest<br>World Peace Builder</span>
+                </div>
+                <div class="trending">
+                    <img src="profile/daryl.png" class="trending-pic">
+                    <span class="trending-desc">@daryl<br>Super Cool Project</span>
+                </div>
+                <div class="trending">
+                    <img src="profile/brady.png" class="trending-pic">
+                    <span class="trending-desc">@brady<br>Life Changing App</span>
+                </div>
+                <div class="trending">
+                    <img src="profile/kaylee.png" class="trending-pic">
+                    <span class="trending-desc">@kaylee<br>No Traffic Maker</span>
+                </div>
+                <div class="trending">
+                    <img src="profile/lindsay.png" class="trending-pic">
+                    <span class="trending-desc">@lindsay<br>Karya Anak Bangsa</span>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
